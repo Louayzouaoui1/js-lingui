@@ -5,7 +5,7 @@
   "description": "The Lingui i18n runtime: loads compiled message catalogs, tracks the active locale and formats ICU MessageFormat messages",
   "type": "module",
   "author": {
-    "name": "Tomáš Ehrlich",
+    "name": "Tom\u00e1\u0161 Ehrlich",
     "email": "tomas.ehrlich@gmail.com"
   },
   "license": "MIT",
@@ -22,7 +22,7 @@
     "pluralization"
   ],
   "scripts": {
-    "build": "unbuild",
+    "build": "node init && unbuild",
     "check-types": "tsc --noEmit"
   },
   "homepage": "https://lingui.dev",

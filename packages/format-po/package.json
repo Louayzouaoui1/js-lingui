@@ -21,7 +21,7 @@
   },
   "scripts": {
     "test": "vitest run",
-    "build": "unbuild",
+    "build": "node init && unbuild",
     "check-types": "tsc --noEmit"
   },
   "homepage": "https://lingui.dev",

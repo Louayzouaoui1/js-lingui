@@ -8,7 +8,7 @@
   },
   "sideEffects": false,
   "author": {
-    "name": "Tomáš Ehrlich",
+    "name": "Tom\u00e1\u0161 Ehrlich",
     "email": "tomas.ehrlich@gmail.com"
   },
   "license": "MIT",
@@ -26,7 +26,7 @@
     "build-tooling"
   ],
   "scripts": {
-    "build": "unbuild",
+    "build": "node init && unbuild",
     "check-types": "tsc --noEmit"
   },
   "homepage": "https://lingui.dev",

@@ -23,7 +23,7 @@
     "./compileMessage": "./dist/compileMessage.mjs"
   },
   "scripts": {
-    "build": "unbuild",
+    "build": "node init && unbuild",
     "check-types": "tsc --noEmit"
   },
   "homepage": "https://lingui.dev",

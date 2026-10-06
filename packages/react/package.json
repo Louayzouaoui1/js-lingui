@@ -5,7 +5,7 @@
   "description": "React bindings for Lingui i18n: I18nProvider, Trans and useLingui, with compile-time macros and React Server Components support",
   "type": "module",
   "author": {
-    "name": "Tomáš Ehrlich",
+    "name": "Tom\u00e1\u0161 Ehrlich",
     "email": "tomas.ehrlich@gmail.com"
   },
   "license": "MIT",
@@ -23,7 +23,7 @@
     "server-components"
   ],
   "scripts": {
-    "build": "unbuild",
+    "build": "node init && unbuild",
     "check-types": "tsc --noEmit"
   },
   "homepage": "https://lingui.dev",

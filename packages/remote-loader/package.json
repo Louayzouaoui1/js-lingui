@@ -21,7 +21,7 @@
     "messageformat"
   ],
   "scripts": {
-    "build": "unbuild"
+    "build": "node init && unbuild"
   },
   "homepage": "https://lingui.dev",
   "repository": {

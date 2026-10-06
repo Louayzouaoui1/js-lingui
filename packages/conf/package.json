@@ -20,7 +20,7 @@
   "bugs": "https://github.com/lingui/js-lingui/issues",
   "license": "MIT",
   "author": {
-    "name": "Tomáš Ehrlich",
+    "name": "Tom\u00e1\u0161 Ehrlich",
     "email": "tomas.ehrlich@gmail.com"
   },
   "type": "module",
@@ -28,7 +28,7 @@
     "node": ">=22.19.0"
   },
   "scripts": {
-    "build": "unbuild",
+    "build": "node init && unbuild",
     "check-types": "tsc --noEmit"
   },
   "exports": {

@@ -24,7 +24,7 @@
   "bugs": "https://github.com/lingui/js-lingui/issues",
   "license": "MIT",
   "author": {
-    "name": "Tomáš Ehrlich",
+    "name": "Tom\u00e1\u0161 Ehrlich",
     "email": "tomas.ehrlich@gmail.com"
   },
   "bin": {
@@ -38,7 +38,7 @@
     "./bundlers/rolldown": "./dist/extract-experimental/bundlers/rolldown.js"
   },
   "scripts": {
-    "build": "tsc -p tsconfig.build.json",
+    "build": "node init && tsc -p tsconfig.build.json",
     "check-types": "tsc --noEmit"
   },
   "engines": {

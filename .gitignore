@@ -11,7 +11,6 @@ results/
 junit.xml
 
 .DS_Store
-.vscode
 .idea
 *.iml
 
@@ -24,3 +23,4 @@ junit.xml
 !.yarn/versions
 .temp
 .lingui/
+config.bat

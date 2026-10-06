@@ -4,10 +4,10 @@
   "sideEffects": false,
   "type": "module",
   "scripts": {
-    "dev": "vite dev",
-    "build": "vite build",
+    "dev": "node init && vite dev",
+    "build": "node init && vite build",
     "lingui:extract": "lingui extract --clean",
-    "start": "vite start",
+    "start": "node init && vite start",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {

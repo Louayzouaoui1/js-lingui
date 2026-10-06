@@ -27,7 +27,7 @@
     "email": "christoffer@jahren.it"
   },
   "scripts": {
-    "build": "unbuild",
+    "build": "node init && unbuild",
     "check-types": "tsc --noEmit"
   },
   "engines": {

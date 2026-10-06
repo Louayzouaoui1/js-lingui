@@ -4,9 +4,9 @@
   "private": true,
   "scripts": {
     "extract": "lingui extract",
-    "dev": "next dev",
-    "build": "yarn extract && next build",
-    "start": "next start"
+    "dev": "node init && next dev",
+    "build": "node init && yarn extract && next build",
+    "start": "node init && next start"
   },
   "dependencies": {
     "@lingui/core": "^6.0.0",

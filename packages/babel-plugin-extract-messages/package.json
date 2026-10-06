@@ -4,7 +4,7 @@
   "description": "Babel plugin to extract translatable messages from source code into Lingui catalogs",
   "type": "module",
   "author": {
-    "name": "Tomáš Ehrlich",
+    "name": "Tom\u00e1\u0161 Ehrlich",
     "email": "tomas.ehrlich@gmail.com"
   },
   "license": "MIT",
@@ -19,7 +19,7 @@
     "gettext"
   ],
   "scripts": {
-    "build": "unbuild",
+    "build": "node init && unbuild",
     "check-types": "tsc --noEmit"
   },
   "files": [

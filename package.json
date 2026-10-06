@@ -4,7 +4,7 @@
   "version": "6.0.0",
   "type": "module",
   "author": {
-    "name": "Tomáš Ehrlich",
+    "name": "Tom\u00e1\u0161 Ehrlich",
     "email": "tomas.ehrlich@gmail.com"
   },
   "license": "MIT",
@@ -28,7 +28,7 @@
     "version:latest": "lerna version --exact --force-publish --no-private --create-release github --conventional-commits --yes",
     "release:latest": "lerna publish from-package --dist-tag latest --yes",
     "release:next": "lerna publish from-package --canary --preid next --pre-dist-tag next --yes",
-    "build:docs": "cd website && yarn install && yarn build",
+    "build:docs": "node init && cd website && yarn install && yarn build",
     "size-limit": "size-limit",
     "prepare": "husky install"
   },
